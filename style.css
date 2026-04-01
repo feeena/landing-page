@@ -1,0 +1,170 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: hsl(351, 69%, 83%);
+}
+
+.logo-link {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(21, 68, 197, 0.562);
+    font-size: 20px;
+}
+
+.hero {
+    background-color: hsl(351, 69%, 83%);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.video {
+    width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 400px;
+    color: rgb(98, 187, 205);
+}
+
+img, video {
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    padding: 0;
+    font-size: 18px;
+    color: rgb(211, 248, 255);;
+}
+
+button {
+    padding: 8px 40px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 172);
+    border: none;
+    color: rgb(214, 131, 131);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.body {
+    background-color: aliceblue;
+    padding: 0 0 118px;
+}
+
+.body-title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.moments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;   
+}
+
+.pic {
+    width: 200px;
+    outline: 2px solid rgb(250, 157, 157);
+}
+
+.items p {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 20px;
+    color: hsl(319, 99%, 44%);
+}
+
+.quote-body {
+    background-color: hsl(200, 100%, 88%);
+    padding: 118px;
+}
+
+.quote-text {
+    font-size: 30px;
+    color: rgb(139, 139, 227);
+    padding: 0 80px;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(96, 96, 151);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 120px;
+}
+
+.action-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 79%, 83%);
+    max-width: 800px;
+    margin: 100px auto;
+    border-radius: 25px;
+    padding: 40px;
+    outline: solid rgb(252, 209, 209) 8px;
+}
+
+.action-text {
+    width: 400px;
+    color: rgb(98, 187, 205);
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: rgb(113, 248, 255);
+    text-shadow: 1px 2px 1px black;
+}
+
+.footer {
+    background-color: hsl(351, 69%, 83%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer p {
+    color: rgba(21, 68, 197, 0.562);
+    font-size: 22px;
+}
